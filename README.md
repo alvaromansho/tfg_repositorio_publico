@@ -1,13 +1,12 @@
 # Large Language Models en el Dominio Tabular: Estudio Comparativo en Clasificación de Datos Médicos
 
 > Universidad Rey Juan Carlos - Escuela de Ingeniería de Fuenlabrada
+>
 > Grado en Ciencia e Ingeniería de Datos - Trabajo Fin de Grado
 
-| | |
-|---|---|
-| **Autor** | Álvaro Manso Horcajada |
-| **Tutor** | Cristian David Chushig Muzo |
-| **Cotutor** | Luis Bote Curiel |
+- **Autor:** Álvaro Manso Horcajada.
+- **Tutor:** Cristian David Chushig Muzo.
+- **Cotutor:** Luis Bote Curiel.
 
 ## Descripción
 
