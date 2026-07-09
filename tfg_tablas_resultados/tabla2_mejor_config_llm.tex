@@ -1,0 +1,38 @@
+\begin{table}[htbp]
+\centering
+\caption[Mejor configuración de cada LLM por conjunto de datos]{Mejor configuración de cada LLM por conjunto de datos. En negrita, el \textit{F1-score} más alto de cada conjunto de datos.}
+\label{tab:mejor_config_llm}
+\begin{tabular}{lllll}
+\toprule
+Dataset & Familia & Tamaño & Configuración & F1-score \\
+\midrule
+Heart & DeepSeek & Small & List / Few-shot-rag / 8 shots & 0{,}6131 \\
+Heart & DeepSeek & Medium & List / Few-shot / 1 shots & 0{,}5459 \\
+Heart & DeepSeek & Large & Text / Zero-shot / 0 shots & 0{,}6311 \\
+Heart & Mistral & Small & List / Few-shot-rag / 8 shots & 0{,}6240 \\
+Heart & Mistral & Medium & List / Few-shot-rag / 4 shots & 0{,}6645 \\
+Heart & Mistral & Large & List / Zero-shot / 0 shots & 0{,}6812 \\
+Heart & Qwen & Small & List / Few-shot-rag / 4 shots & 0{,}6090 \\
+Heart & Qwen & Medium & List / Few-shot / 8 shots & \textbf{0{,}6911} \\
+Heart & Qwen & Large & List / Few-shot / 8 shots & 0{,}6840 \\
+Cancer & DeepSeek & Small & List / Few-shot-rag / 2 shots & \textbf{0{,}7711} \\
+Cancer & DeepSeek & Medium & List / Few-shot-rag / 8 shots & 0{,}7146 \\
+Cancer & DeepSeek & Large & Text / Few-shot-rag / 4 shots & 0{,}7514 \\
+Cancer & Mistral & Small & List / Few-shot-rag / 4 shots & 0{,}7282 \\
+Cancer & Mistral & Medium & Text / Few-shot / 1 shots & 0{,}6721 \\
+Cancer & Mistral & Large & Text / Few-shot-rag / 2 shots & 0{,}7439 \\
+Cancer & Qwen & Small & List / Few-shot-rag / 8 shots & 0{,}7344 \\
+Cancer & Qwen & Medium & List / Few-shot-rag / 8 shots & 0{,}7189 \\
+Cancer & Qwen & Large & Text / Few-shot-rag / 2 shots & 0{,}7103 \\
+DIA & DeepSeek & Small & Text / Few-shot-rag / 1 shots & 0{,}5893 \\
+DIA & DeepSeek & Medium & List / Few-shot-rag / 1 shots & 0{,}5296 \\
+DIA & DeepSeek & Large & List / Few-shot-rag / 4 shots & 0{,}5900 \\
+DIA & Mistral & Small & List / Few-shot-rag / 1 shots & 0{,}5781 \\
+DIA & Mistral & Medium & List / Few-shot-rag / 1 shots & 0{,}5889 \\
+DIA & Mistral & Large & Text / Few-shot-rag / 1 shots & \textbf{0{,}5974} \\
+DIA & Qwen & Small & Text / Few-shot-rag / 8 shots & 0{,}5897 \\
+DIA & Qwen & Medium & Text / Few-shot-rag / 1 shots & 0{,}5726 \\
+DIA & Qwen & Large & List / Few-shot-rag / 1 shots & 0{,}5924 \\
+\bottomrule
+\end{tabular}
+\end{table}

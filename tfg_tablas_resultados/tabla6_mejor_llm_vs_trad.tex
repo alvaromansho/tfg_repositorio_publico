@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering
+\caption[Comparación del mejor F1-score alcanzado por un LLM frente al mejor modelo tradicional en cada conjunto de datos]{Comparación del mejor \textit{F1-score} alcanzado por un LLM frente al mejor modelo tradicional en cada conjunto de datos.}
+\label{tab:mejor_llm_vs_trad}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrlrr}
+\toprule
+Dataset & Mejor tradicional & F1 tradicional & Mejor LLM & F1 LLM & Diferencia (LLM - tradicional) \\
+\midrule
+Heart & Random Forest & 0{,}7622 & Qwen Medium & 0{,}6911 & -0{,}0711 \\
+Cancer & XGBoost & 0{,}7426 & DeepSeek Small & 0{,}7711 & 0{,}0285 \\
+DIA & Random Forest & 0{,}5960 & Mistral Large & 0{,}5974 & 0{,}0014 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
